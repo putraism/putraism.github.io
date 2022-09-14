@@ -8,6 +8,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
+    <!-- CSS Animasi AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
 
@@ -15,7 +18,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">Putra Iskandar Muda</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,22 +27,22 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item me-3">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link fw-bold" href="#">Home</a>
             </li>
             <li class="nav-item me-3">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link fw-bold" href="#about">About</a>
             </li>
             <li class="nav-item me-3">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
+              <a class="nav-link fw-bold" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item me-3">
-              <a class="nav-link" href="#blog">Blog</a>
+              <a class="nav-link fw-bold" href="#blog">Blog</a>
             </li>
             <li class="nav-item me-3">
-              <a class="nav-link" href="#team">Team</a>
+              <a class="nav-link fw-bold" href="#team">Team</a>
             </li>
             <li class="nav-item me-3">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link fw-bold" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -50,24 +53,24 @@
     <!-- Jumbotron -->
     <section class="jumbotron text-center" id="jumbotron">
       <img src="img/profile.jpeg" alt="foto profile" width="200" class="rounded-circle" />
-      <h1 class="display-4 ">Putra Iskandar Muda</h1>
-      <p class="fw-bold">Junior Web Developer</p>
+      <h1 class="display-4">Putra Iskandar Muda</h1>
+      <p class="fw-bold lead">Junior Web Developer</p>
     </section>
     <!-- End Jumbotron -->
 
     <!-- About -->
-    <section id="about">
-      <div class="container">
+    <section id="about" class="shadow-lg">
+      <div class="container" >
         <div class="row text-center mb-3">
           <div class="col">
             <h2>About Me</h2>
           </div>
         </div>
-        <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+        <div class="row fs-5 text-center justify-content-center">
+          <div class="col-md-4" data-aos="fade-right">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae accusamus odit maxime, architecto in culpa, porro, fugiat cum eius consequatur laborum eveniet quae amet libero? Quis aperiam consequuntur fugiat. Eligendi, accusamus atque unde labore quae distinctio necessitatibus? Impedit, ipsum sint? Illum natus explicabo iste nemo odio delectus? Sint, excepturi fugiat!</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-delay="200">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ex quod consequatur quaerat ratione corporis, ipsa aspernatur rerum sint voluptates reiciendis, dignissimos deleniti dicta voluptate in accusamus quidem quos accusantium iure nam. Vel in reprehenderit, vero dolorum officiis laboriosam, nemo totam asperiores facere, fugiat sequi ullam consectetur aperiam quia assumenda.</p>
           </div>
         </div>
@@ -84,31 +87,31 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3" data-aos="zoom-in-down" data-aos-duration="500">
             <div class="card">
               <img src="img/portfolio/1.jpg" class="card-img-top" alt="..." />
               
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3" data-aos="zoom-in-down" data-aos-duration="500" data-aos-delay="100">
             <div class="card">
               <img src="img/portfolio/2.jpg" class="card-img-top" alt="..." />
               
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3" data-aos="zoom-in-down" data-aos-duration="500" data-aos-delay="200">
             <div class="card">
               <img src="img/portfolio/4.jpg" class="card-img-top" alt="..." />
               
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3" data-aos="zoom-in-down" data-aos-duration="500" data-aos-delay="300">
             <div class="card">
               <img src="img/portfolio/5.jpg" class="card-img-top" alt="..." />
               
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3" data-aos="zoom-in-down" data-aos-duration="500" data-aos-delay="400">
             <div class="card">
               <img src="img/portfolio/3.jpg" class="card-img-top" alt="..." />
             </div>
@@ -119,13 +122,13 @@
     <!-- End Portfolio -->
 
     <!-- Blog -->
-    <section id="blog">
+    <section id="blog" class="shadow-lg">
       <div class="row text-center">
         <div class="col mb-3">
           <h2>Blog</h2>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-3 mb-3">
+          <div class="col-md-3 mb-3" data-aos="zoom-in" data-aos-delay="300">
             <div class="card">
               <img src="img/blog/1.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -133,7 +136,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 mb-3">
+          <div class="col-md-3 mb-3" data-aos="zoom-in" data-aos-delay="200">
             <div class="card">
               <img src="img/blog/2.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -141,7 +144,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 mb-3">
+          <div class="col-md-3 mb-3" data-aos="zoom-in" data-aos-delay="300">
             <div class="card">
               <img src="img/blog/3.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -155,32 +158,40 @@
     <!-- End Blog -->
 
     <!-- Team -->
-    
     <section id="team">
       <div class="row text-center">
         <div class="col mb-3">
           <h2>Team</h2>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-3 mb-3">
-            <div class="card">
-              <img src="img/team.jpg" class="card-img-top" alt="..." />
+          <div class="col-md-3 mb-3" data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="50"
+          data-aos-offset="-50">
+            <div class="card" >
+              <img src="img/team/jason.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text fw-bold fs-5">Jason | Web Designer</p>
               </div>
             </div>
           </div>
-          <div class="col-md-3 mb-3">
-            <div class="card">
-              <img src="img/team.jpg" class="card-img-top" alt="..." />
+          <div class="col-md-3 mb-3" data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="100"
+          data-aos-offset="-50">
+            <div class="card" >
+              <img src="img/team/emma.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text fw-bold fs-5">Emma | Front End Developer</p>
               </div>
             </div>
           </div>
-          <div class="col-md-3 mb-3">
-            <div class="card">
-              <img src="img/team.jpg" class="card-img-top" alt="..." />
+          <div class="col-md-3 mb-3" data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="150"
+          data-aos-offset="-50"> 
+            <div class="card" >
+              <img src="img/team/james.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text fw-bold fs-5">James | Back End Developer</p>
               </div>
@@ -192,8 +203,8 @@
     <!-- End Team -->
 
     <!-- Contact -->
-    <section id="contact" class="mt-4 p-5">
-      <div class="row text-center">
+    <section id="contact" class="shadow-lg">
+      <div class="row text-center contact">
         <div class="col mb-3">
           <h2>Contact Me</h2>
         </div>
@@ -232,7 +243,7 @@
 
     <!-- Footer -->
     <footer class="bg-dark text-white text-center p-3">
-    <p>Created by <a href="https://www.instagram.com/putraism_" class="text-white fw-bold">Putra Iskandar Muda</a>👋</p>
+    <p>Created by <a href="https://github.com/putraism" target="_blank" class="text-white fw-bold">Putra Iskandar Muda</a>👋</p>
     </footer>
     <!-- End Footer -->
 
@@ -242,6 +253,25 @@
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
+    <!-- Script Animasi AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+        duration: 1000,
+      });
+    </script>
+
+    <!-- Script GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin, );
+      gsap.from('.jumbotron img', {duration: 1.2, y:-100, opacity: 0, ease: 'power3'})
+      gsap.from('.display-4', { duration: 1, x: '-50', opacity: 0, delay: .5, ease: 'back'})
+      gsap.from('.lead', { duration: 1, x: '-50', opacity: 0, delay: .5, ease: 'back'})
+    </script>
+
     <!-- Contact Me to Google Sheet -->
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbyKoek7uUVGE9mrdeZN23XdowbLRfxlTnGTXF7I-j6esKELgV5EC1g4bTsZhephYMgSWQ/exec'
@@ -269,6 +299,15 @@
           })
           .catch(error => console.error('Error!', error.message))
       })
+    </script>
+
+    <!-- JQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <script>
+      $('.navbar-collapse a').click(function(){
+          $(".navbar-collapse").collapse('hide');
+      });
     </script>
   </body>
 </html>
